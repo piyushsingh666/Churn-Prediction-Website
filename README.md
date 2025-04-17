@@ -1,14 +1,18 @@
 # Churn Prediction Website
 
-This project is a full-stack web application designed to predict customer churn using machine learning. It combines a Python-based backend with a modern frontend to provide users with an intuitive interface for predicting churn probabilities.
+An end-to-end web application that predicts customer churn using machine learning. The project includes a React frontend and a Python backend, providing an interactive interface for users to input customer data and receive churn predictions.​
 
-## Features
+---
 
-- **Machine Learning Model**: Utilizes a trained model to predict the likelihood of customer churn based on input features.
-- **Frontend Interface**: Built with HTML, CSS, and JavaScript to provide a user-friendly experience.
-- **Backend API**: Developed using Python to handle data processing and model inference.
-- **Responsive Design**: Ensures compatibility across various devices and screen sizes.
+## 🔍 Overview
 
-## Project Structure
+Customer churn prediction is crucial for businesses to retain valuable customers. This application allows users to input customer details and leverages a trained machine learning model to predict the likelihood of churn. The intuitive interface ensures ease of use, while the backend handles data processing and prediction logic.​
 
-<pre><code>```text Churn-Prediction-Website/ ├── backend/ │ ├── app.py │ ├── model/ │ │ └── churn_model.pkl │ └── requirements.txt ├── frontend/ │ ├── index.html │ ├── styles.css │ └── script.js └── README.md ``` </code></pre>
+---
+
+## 🛠️ Features
+
+- **Interactive Frontend**: Built with React, providing a responsive and user-friendly interface.
+- **Robust Backend**: Developed in Python, handling data processing and model inference.
+- **Machine Learning Model**: Trained to predict customer churn based on input features.
+- **Real-time Predictions**: Users receive immediate feedback on churn likelihood.
